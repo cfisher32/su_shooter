@@ -15,7 +15,7 @@ public class PlayerHealth : MonoBehaviour
     public Color flashColour = new Color(1f, 0f, 0f, 0.1f);
 
 
-    //Animator anim;
+    Animator anim;
     AudioSource playerAudio;
     PlayerMovement playerMovement;
     PlayerShooting playerShooting;
@@ -25,7 +25,7 @@ public class PlayerHealth : MonoBehaviour
 
     void Awake ()
     {
-        //anim = GetComponent <Animator> ();
+        anim = GetComponent <Animator> ();
         playerAudio = GetComponent <AudioSource> ();
         playerMovement = GetComponent <PlayerMovement> ();
         playerShooting = GetComponentInChildren <PlayerShooting> ();
@@ -70,7 +70,7 @@ public class PlayerHealth : MonoBehaviour
 
         playerShooting.DisableEffects ();
 
-        //anim.SetTrigger ("Die");
+        anim.SetTrigger ("Die");
 
         playerAudio.clip = deathClip;
         playerAudio.Play ();
