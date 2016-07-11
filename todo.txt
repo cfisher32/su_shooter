@@ -1,0 +1,16 @@
+to do
+
+- animations
+- hit particles
+- set env objects to Attackable layer
+- audio files for
+	- background
+	- player hit
+	- zomb hit
+- audio mixers
+- animation controllers
+- UI images
+- change slider to use 100% instead of actual health.
+- fix nav mesh for avatars
+- change death to use GM 
+- animation triggers
