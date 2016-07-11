@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ZombieHankACO
+  m_Controller: {fileID: 9100000, guid: 6fcad2c3560e6814294b46d572a8bf76, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 7a3110e765ae8ec459ad50f78f929593, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 01032623026f46d41baebcf1cfa14be1, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 14963f8cfecc69140a3569731c01ba21, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 90dc7eeefd8d2f0459b2230877dfb15d, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: be2760080e1ffa34bb90ea34339a6357, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 16299555d50d5584d83f5b667465d31b, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 231d8a6a28934ac4386ed1bb4ab72d24, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 231d8a6a28934ac4386ed1bb4ab72d24, type: 3}
