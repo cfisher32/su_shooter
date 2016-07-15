@@ -30,10 +30,10 @@ public class EnemyHealth : MonoBehaviour
 
     void Update ()
     {
-        if(isSinking)
-        {
-            transform.Translate (-Vector3.up * sinkSpeed * Time.deltaTime);
-        }
+        //if(isSinking)
+        //{
+        //    transform.Translate (-Vector3.up * sinkSpeed * Time.deltaTime);
+        //}
     }
 
 
@@ -75,8 +75,10 @@ public class EnemyHealth : MonoBehaviour
     public void StartSinking () //anim event
     {
         GetComponent <NavMeshAgent> ().enabled = false;
-        GetComponent <Rigidbody> ().isKinematic = true;
-        //isSinking = true;
+        //GetComponent <Rigidbody> ().isKinematic = true;
+		//isSinking = true;
+		//Vector3 newPos = new Vector3(transform.position.x, -1.08f, transform.position.z);
+		//transform.position = newPos;
         ScoreManager.score += scoreValue;
         //Destroy (gameObject, 4f);
     }
