@@ -1,0 +1,17 @@
+Zombie_01
+
+
+UNITY 3D NOTES:
+
+Please Note: Unity imports the animations with a default of "Keyframe Reduction", and as you might imagine this can make the hands and all look a little sloppy because of the innacuracy created. They will look much better if you set the compression to at least "Optimal".
+
+
+Please see other included documentation, "MocapOnlineUnityMecanimDocumentation.pdf", refer to the Unity documentation online, or contact us with any other questions.
+
+Mocap Online Unity Docs:
+https://goo.gl/48n6vL
+
+Unity@motusdigital.com
+
+
+Provided Motus Man character is copyright © Motus Digital, LLC
